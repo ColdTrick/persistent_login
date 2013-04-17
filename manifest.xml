@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin_manifest>
-	<field key="author" value="ColdTrick IT Solutions" />
-	<field key="version" value="0.1" />
-	<field key="description" value="Allows persistent logon over more than one browser/computer" />
-	<field key="website" value="http://www.coldtrick.com/" />
-	<field key="copyright" value="(C) ColdTrick IT Solutions 2010" />
-	<field key="licence" value="GNU Public License version 2" />
-	<field key="elgg-version" value="2009030101" />
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<name>Persistent Login</name>
+	<author>ColdTrick IT Solutions</author>
+	<version>0.1</version>
+	<description>Allows persistent logon over more than one browser/computer</description>
+	<website>http://www.coldtrick.com/</website>
+	<copyright>(C) ColdTrick IT Solutions 2012 - 2013</copyright>
+	<license>GNU Public License version 2</license>
+ 	
+ 	<requires>
+		<type>elgg_release</type>
+		<version>1.8.14</version>
+	</requires>
+	
+	<category>ColdTrick</category>
 </plugin_manifest>
-<!--
-
-Default Elgg persistent login only supports one "remember me" at the time. You can't be remember on more than one browser/computer.
-
-This plugin provides the ability to have yourself remembered on more than one place.
-
-This plugin is build on 1.7.4 but should work from 1.6 up.
-
-Be aware that this is a first (0.1) release and is a bit experimental. It would be appreciated if you could let us know if this plugin works. 
-
-====================
-Version history
-====================
-0.1 (2010-11-17):
-	- initial release
--->
