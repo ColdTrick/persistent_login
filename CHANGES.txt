@@ -1,4 +1,5 @@
 = Version History =
+
 x.x:
 - rewrote the plugin for Elgg 1.8.14
 
