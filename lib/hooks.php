@@ -3,13 +3,14 @@
 /**
  * Access read hook to allow access to private data to functions of this plugin
  *
- * @param unknown_type $hook
- * @param unknown_type $type
- * @param unknown_type $returnvalue
- * @param unknown_type $params
+ * @param unknown_type $hook        Hook
+ * @param unknown_type $type        Type
+ * @param unknown_type $returnvalue Return value
+ * @param unknown_type $params      Params
+ *
  * @return Ambigous <string, unknown>
  */
-function persistent_login_access_read_hook($hook, $type, $returnvalue, $params){
+function persistent_login_access_read_hook($hook, $type, $returnvalue, $params) {
 	global $PERSISTENT_LOGIN;
 
 	$result = $returnvalue;
@@ -28,13 +29,13 @@ function persistent_login_access_read_hook($hook, $type, $returnvalue, $params){
 /**
  * Cron hook to delete persistent login annotations older then permanent cookie lifetime
  *
- * @param unknown_type $hook
- * @param unknown_type $type
- * @param unknown_type $returnvalue
- * @param unknown_type $params
+ * @param unknown_type $hook        Hook
+ * @param unknown_type $type        Type
+ * @param unknown_type $returnvalue Return value
+ * @param unknown_type $params      Params
  * @return void
  */
-function persistent_login_cron_hook($hook, $type, $returnvalue, $params){
+function persistent_login_cron_hook($hook, $type, $returnvalue, $params) {
 	global $PERSISTENT_LOGIN;
 
 	$PERSISTENT_LOGIN = true;

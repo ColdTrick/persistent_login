@@ -10,7 +10,7 @@ require_once(dirname(__FILE__) . "/lib/hooks.php");
  *
  * @return void
  */
-function persistent_login_plugins_boot(){
+function persistent_login_plugins_boot() {
 	global $PERSISTENT_LOGIN;
 
 	// register event listener

@@ -3,11 +3,13 @@
 /**
  * Save persistent login annotation on login
  *
- * @param unknown_type $event
- * @param unknown_type $objecttype
- * @param unknown_type $object
+ * @param unknown_type $event      Event
+ * @param unknown_type $objecttype Type
+ * @param unknown_type $object     Object
+ *
+ * @return void
  */
-function persistent_login_event_handler($event, $objecttype, $object){
+function persistent_login_event_handler($event, $objecttype, $object) {
 
 	if (!empty($object) && ($object instanceof ElggUser)) {
 		if (!empty($_SESSION["code"])) {
@@ -21,11 +23,13 @@ function persistent_login_event_handler($event, $objecttype, $object){
 /**
  * Logout hook to remove persistent login annotation
  *
- * @param unknown_type $event
- * @param unknown_type $objecttype
- * @param unknown_type $object
+ * @param unknown_type $event      Event
+ * @param unknown_type $objecttype Type
+ * @param unknown_type $object     Object
+ *
+ * @return void
  */
-function persistent_login_logout_event_handler($event, $objecttype, $object){
+function persistent_login_logout_event_handler($event, $objecttype, $object) {
 
 	if (!empty($object) && ($object instanceof ElggUser)) {
 
