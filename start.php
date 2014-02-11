@@ -7,6 +7,8 @@ require_once(dirname(__FILE__) . "/lib/hooks.php");
 
 /**
  * Boot function to login a user based on the elggperm cookie
+ *
+ * @return void
  */
 function persistent_login_plugins_boot(){
 	global $PERSISTENT_LOGIN;

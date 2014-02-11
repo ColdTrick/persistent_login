@@ -32,6 +32,7 @@ function persistent_login_access_read_hook($hook, $type, $returnvalue, $params){
  * @param unknown_type $type
  * @param unknown_type $returnvalue
  * @param unknown_type $params
+ * @return void
  */
 function persistent_login_cron_hook($hook, $type, $returnvalue, $params){
 	global $PERSISTENT_LOGIN;
