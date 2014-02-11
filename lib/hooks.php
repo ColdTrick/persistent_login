@@ -1,4 +1,7 @@
 <?php
+/**
+ * Hookhandlers for persistent login plugin
+ */
 
 /**
  * Access read hook to allow access to private data to functions of this plugin

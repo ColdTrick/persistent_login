@@ -1,4 +1,7 @@
 <?php
+/**
+ * Eventhandlers for persistent login plugin
+ */
 
 /**
  * Save persistent login annotation on login
