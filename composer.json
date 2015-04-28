@@ -1,0 +1,7 @@
+{
+    "name": "coldtrick/persistent_login",
+    "type": "elgg-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
