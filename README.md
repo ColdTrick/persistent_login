@@ -1,3 +1,7 @@
+DEPRECATED!
+==========
+This plugin is out of date and should no longer be used. Elgg now provides this functionality in core.
+
 Persistent Login
 ================
 Default Elgg persistent login only supports one "remember me" at the time. You can't be remembered on more than one browser/computer.
